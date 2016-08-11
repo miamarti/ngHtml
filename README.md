@@ -18,7 +18,7 @@ Render HTML View
 ```
 <ng-html 
   ng-model="modelA">
-</ng-dropdown>
+</ng-html>
 ```
 
 ## Bower install de dependency
