@@ -4,8 +4,15 @@
         function() {
             return {
                 restrict: 'E',
+                scope: {
+                    ngModel: '=ngModel'
+                },
                 link: function(scope, element, attrs) {
-                    element.context.innerHTML = attrs.value;
+                    scope.$watch(attrs.ngModel, function(value) {
+                        if (value !== undefined) {
+                            element.context.innerHTML = value;
+                        }
+                    });
                 }
             };
         }
