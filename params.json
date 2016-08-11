@@ -1,0 +1,6 @@
+{
+  "name": "ngHtml",
+  "tagline": "Angular render HTML",
+  "body": "# ngHTML\r\nRender HTML View\r\n<br>Rendering html tags in AngularJS\r\n\r\n<p>\r\n  <a href=\"https://gitter.im/miamarti/ngHtml\" target=\"_blank\"><img src=\"https://img.shields.io/gitter/room/nwjs/nw.js.svg\"></a>\r\n  <img src=\"https://img.shields.io/badge/ngHtml-release-green.svg\">\r\n  <img src=\"https://img.shields.io/badge/version-1.0.0-blue.svg\">\r\n  <img src=\"https://img.shields.io/github/license/mashape/apistatus.svg\">\r\n  <a href=\"https://github.com/miamarti/ngHtml/tarball/master\"><img src=\"https://img.shields.io/github/downloads/atom/atom/latest/total.svg\"></a>\r\n  <img src=\"https://img.shields.io/bower/v/bootstrap.svg\">\r\n</p>\r\n\r\n## Dependencies\r\n* AngularJS\r\n\r\n## Implementation\r\n```\r\n<ng-html \r\n  ng-model=\"modelA\">\r\n</ng-dropdown>\r\n```\r\n\r\n## Bower install de dependency\r\n```\r\n$ bower install ngHtml --save\r\n```\r\n\r\n## Module AngularJS include\r\n```\r\nangular.module('example', [\"ngHtml\"]);\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
